@@ -57,8 +57,6 @@ public class CarInsurance {
 	public void setBase_premium(int base_premium){
 		this.base_premium=base_premium;	
 	}
-
-	
 	
 	public static void main(String[] args) {
 		
