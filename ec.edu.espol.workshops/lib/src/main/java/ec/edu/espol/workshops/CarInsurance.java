@@ -54,21 +54,11 @@ public class CarInsurance {
 		this.matital_status=matital_status;
 	}
 	
-	public int getAge() {
-		return this.age;
+	public void setBase_premium(int base_premium){
+		this.base_premium=base_premium;	
 	}
+
 	
-	public char getSex() {
-		return this.sex;
-	}
-	
-	public boolean getMatital_status() {
-		return this.matital_status;
-	}
-	
-	public int getBase_premium() {
-		return this.base_premium;
-	}
 	
 	public static void main(String[] args) {
 		
