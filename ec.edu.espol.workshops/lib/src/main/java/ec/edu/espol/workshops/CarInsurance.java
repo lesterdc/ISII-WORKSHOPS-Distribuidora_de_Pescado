@@ -32,7 +32,7 @@ public class CarInsurance {
    @return devuelve el total
    
  */
-  public int Premium() {
+  public int premium() {
     int total = 0;
     if (sex == 'M' && matital_status == false && age < 25) {
       base_premium += 1500;
@@ -58,7 +58,7 @@ public class CarInsurance {
  
  * @return es el valor booleano regresado
  */
-  public boolean Policies(String numero) {
+  public boolean policies(String numero) {
     return (age > 80 && driving_license(numero));
   }
 
