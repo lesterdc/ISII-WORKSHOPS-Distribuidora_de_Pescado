@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.4.2" sequence="1" timestamp="1635555098524" analysisTimestamp="1635555098049" release="">
+  <Project projectName="lib">
+    <Jar>C:\Users\ldaca\git\ISII-WORKSHOPS-Distribuidora_de_Pescado\ec.edu.espol.workshops\lib\bin\main</Jar>
+    <Jar>C:\Users\ldaca\git\ISII-WORKSHOPS-Distribuidora_de_Pescado\ec.edu.espol.workshops\lib\bin\test</Jar>
+    <AuxClasspathEntry>C:\Users\ldaca\git\ISII-WORKSHOPS-Distribuidora_de_Pescado\ec.edu.espol.workshops\lib\bin\main</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ldaca\git\ISII-WORKSHOPS-Distribuidora_de_Pescado\ec.edu.espol.workshops\lib\bin\test</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ldaca\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-math3\3.6.1\e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf\commons-math3-3.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ldaca\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\30.0-jre\8ddbc8769f73309fe09b54c5951163f10b0d89fa\guava-30.0-jre.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ldaca\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ldaca\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ldaca\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ldaca\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.5.0\2f50520c8abea66fbd8d26e481d3aef5c673b510\checker-qual-3.5.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ldaca\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.3.4\dac170e4594de319655ffb62f41cbd6dbb5e601e\error_prone_annotations-2.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ldaca\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ldaca\.gradle\caches\modules-2\files-2.1\junit\junit\4.13.1\cdd00374f1fee76b11e2a9d127405aa3f6be5b6a\junit-4.13.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ldaca\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ldaca\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\ldaca\git\ISII-WORKSHOPS-Distribuidora_de_Pescado\ec.edu.espol.workshops\lib\src\main\java</SrcDir>
+    <SrcDir>C:\Users\ldaca\git\ISII-WORKSHOPS-Distribuidora_de_Pescado\ec.edu.espol.workshops\lib\src\main\resources</SrcDir>
+    <SrcDir>C:\Users\ldaca\git\ISII-WORKSHOPS-Distribuidora_de_Pescado\ec.edu.espol.workshops\lib\src\test\java</SrcDir>
+    <SrcDir>C:\Users\ldaca\git\ISII-WORKSHOPS-Distribuidora_de_Pescado\ec.edu.espol.workshops\lib\src\test\resources</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 29 Oct 2021 19:51:28 -0500" total_classes="1" referenced_classes="13" total_bugs="0" total_size="48" num_packages="1" java_version="16.0.2" vm_version="16.0.2+7-67" cpu_seconds="5.23" clock_seconds="26.18" peak_mbytes="551.19" alloc_mbytes="2048.00" gc_seconds="0.01">
+    <PackageStats package="ec.edu.espol.workshops" total_bugs="0" total_types="1" total_size="48">
+      <ClassStats class="ec.edu.espol.workshops.CarInsurance" sourceFile="CarInsurance.java" interface="false" size="48" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="152" invocations="340" avgMicrosecondsPerInvocation="449" maxMicrosecondsPerInvocation="7844" standardDeviationMicrosecondsPerInvocation="857"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="116" invocations="2" avgMicrosecondsPerInvocation="58081" maxMicrosecondsPerInvocation="105239" standardDeviationMicrosecondsPerInvocation="47158"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="67" invocations="341" avgMicrosecondsPerInvocation="197" maxMicrosecondsPerInvocation="751" standardDeviationMicrosecondsPerInvocation="119"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="19" invocations="13" avgMicrosecondsPerInvocation="1518" maxMicrosecondsPerInvocation="7002" standardDeviationMicrosecondsPerInvocation="2173"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1635555098524" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>
