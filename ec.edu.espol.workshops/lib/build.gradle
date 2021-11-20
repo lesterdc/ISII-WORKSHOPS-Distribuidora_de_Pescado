@@ -26,7 +26,6 @@ dependencies {
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation 'com.google.guava:guava:30.0-jre'
     
-    testImplementation 'junit:junit:4.12'
     testImplementation 'io.cucumber:cucumber-java:6.8.1'
     testImplementation 'io.cucumber:cucumber-junit:6.8.1'
 }

@@ -81,6 +81,8 @@ public class CarInsurance {
 		mio.setSex('M');
 		mio.Premium();
 		System.out.println(mio.getBase_premium());
+		
+		
 	}
 
 }
