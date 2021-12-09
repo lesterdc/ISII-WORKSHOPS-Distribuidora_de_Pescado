@@ -4,7 +4,7 @@ public class CarInsurance {
 	public int age;
 	public char sex;
 	public boolean matital_status;
-	public int base_premium = 500;
+	public int base_premium = 600;
 	
 	public int Premium() {
 		int total=0;
