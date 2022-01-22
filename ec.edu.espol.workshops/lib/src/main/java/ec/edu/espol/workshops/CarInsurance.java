@@ -17,12 +17,23 @@ public class CarInsurance {
 		}else if(age>=45 && age<65) {
 			base_premium-=100;
 			total+=1;
+		}else if (matital_status==true && age>30){
+			if (age < 60){
+				base_premium -=50;
+			}
+		}
+		else if(matital_status==false && sex=='F' && age>60) {
+			base_premium -= 50;
 		}
 		else {
 			total-=1;
 		}
 		return total;
 	}
+	
+	/**Si esta casado y tiene mas de 30 pero mas jjoven de 60
+	 * 50 sera quitado de la base premium, de otra forma
+	 * si esta soltero, es mujer y mayor de 60, se le dara un descuento de 50**/
 	
 	public boolean Policies(String numero) {
 		if(age>80 && driving_license(numero)==false) {
